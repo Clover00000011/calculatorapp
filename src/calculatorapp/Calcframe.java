@@ -144,7 +144,7 @@ public class Calcframe extends JFrame {
 				calculation =1;
 				textField.setText("");
 				textFieldnum.setText(num + "+");
-				// textField.setText(textField.getText() + "+");
+				
 			}
 		});
 		btnplus.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -192,7 +192,7 @@ public class Calcframe extends JFrame {
 				calculation =2;
 				textField.setText("");
 				textFieldnum.setText(num + "-");
-				// textField.setText(textField.getText() + "-");
+				
 			}
 		});
 		btnminus.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -240,7 +240,7 @@ public class Calcframe extends JFrame {
 				calculation =3;
 				textField.setText("");
 				textFieldnum.setText(num + "*");
-				// textField.setText(textField.getText() + "*");
+				
 			}
 		});
 		btnmultiply.setFont(new Font("Tahoma", Font.BOLD, 20));
@@ -288,7 +288,7 @@ public class Calcframe extends JFrame {
 				calculation =4;
 				textField.setText("");
 				textFieldnum.setText(num + "/");
-				// textField.setText(textField.getText() + "/");
+				
 			}
 		});
 		btndivision.setFont(new Font("Tahoma", Font.BOLD, 20));
